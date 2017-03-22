@@ -12,5 +12,7 @@ import dagger.Subcomponent;
 @ActivityScope
 @Subcomponent(modules = {WordCounterFragmentModule.class})
 public interface WordCounterFragmentComponent {
+
     void inject(WordCounterFragment wordCounterFragment);
+
 }
