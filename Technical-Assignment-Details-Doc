@@ -1,0 +1,5 @@
+Technical Assignment Details
+
+I have used an MVP (Model View Presenter) pattern to implement the assignment and have made use of Dagger as dependency injection framework , RXJava and RXAndroid libraries for reactive programming.
+
+For networking I have made use of basic HttpUrlConnection (instead of Volley or Retrofit) since the requirement only required fetching content from network and did not require much parsing on the data.
